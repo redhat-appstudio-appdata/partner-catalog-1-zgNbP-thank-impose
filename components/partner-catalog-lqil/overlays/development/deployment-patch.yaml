@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-lqil
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhn-support-sgaikwad-tenant/partner-catalog-1/partner-catalog-lqil@sha256:d58b67bc1a4cfe5ea6f96509be1dbce47471e98bac3c8566c00b175b6a84d9d6
+        name: my-java-springboot
+        resources: {}
+status: {}
