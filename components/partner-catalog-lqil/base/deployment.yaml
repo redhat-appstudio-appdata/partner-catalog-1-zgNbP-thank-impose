@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-lqil
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/rhn-support-sgaikwad-tenant/partner-catalog-1/partner-catalog-lqil@sha256:d58b67bc1a4cfe5ea6f96509be1dbce47471e98bac3c8566c00b175b6a84d9d6
         name: my-java-springboot
         ports:
         - containerPort: 8081
